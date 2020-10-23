@@ -4,9 +4,13 @@
              x:Class="Elemendid.Jalutan">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="День 1: Выносливость — 25 минут ходьбы в среднем темпе.&#10;День 2: 4+2 — 4 минуты быстрой ходьбы, затем 2 минуты ходьбы в среднем темпе. Повторите два раза.&#10;День 3: Выносливость — 25 минут ходьбы в среднем темпе.&#10;День 4: 30-секундные спринты — 30 секунд спортивной ходьбы, затем минута спокойной ходьбы. Повторите восемь раз.&#10;День 5: Выносливость — 25 минут ходьбы в среднем темпе.&#10;День 6: Равные чередования — 1 минута быстрой ходьбы, затем 1 минута ходьбы в среднем темпе. Повторите шесть раз.."
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                Padding="10"
+                BackgroundColor="white"
+                TextColor="Black"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
