@@ -4,9 +4,14 @@
              x:Class="Elemendid.Soon">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="1. Откажитесь от диет.&#10;2. Следите за рационом.&#10;3. Ешьте в одно и то же время.&#10;4. Ешьте после тренировки.&#10;5. Пейте достаточно.&#10;6. Перекусывайте правильно.&#10;7. Не ждите мгновенных перемен."
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                BackgroundColor="white"
+                TextColor="Black"
+                FontSize="34"/>
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

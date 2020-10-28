@@ -4,9 +4,12 @@
              x:Class="Elemendid.Magan">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Считается, что для полноценного отдыха и восстановления организма взрослому человеку необходимо не менее 8 часов сна. Сон – это циклический процесс, где каждый цикл состоит из чередующихся фаз быстрого и медленного сна. Продолжительность одного цикла в общей сложности составляет 1,5 часа. Если проснуться точно по окончании цикла, то пробуждение будет легким. Но если вы проснулись в середине цикла, останется ощущение недосыпа и усталости, даже если мы спали около 6 ч. "
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                BackgroundColor="white"
+                TextColor="Black"
+                FontSize="23"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,12 @@
              x:Class="Elemendid.Soonputru">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Манные грезы:&#10;Манная каша особой любовью не пользуется, тем более среди детей. Но это всегда можно исправить. В небольшой кастрюле доводим до кипения смесь из 200 мл молока и 100 мл воды. Высыпаем 100 г манки тонкой струйкой и, постоянно помешивая, варим 5–7 минут. Смазываем жаропрочную форму маслом, выкладываем ломтики нектарина и хурмы, посыпаем дробленым фундуком. Прячем начинку под манной кашей, сверху кладем ломтик сливочного масла и ставим форму в разогретую до 180°C духовку на 15 минут. Для самых требовательных сластен можно полить манку ягодным вареньем"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                BackgroundColor="white"
+                TextColor="Black"
+                FontSize="22"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
