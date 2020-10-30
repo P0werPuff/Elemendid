@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="TabelPage.xaml.cs">
-      <DependentUpon>TabelPage.xaml</DependentUpon>
+    <Compile Update="Onne.xaml.cs">
+      <DependentUpon>Onne.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -37,7 +37,7 @@
     <EmbeddedResource Update="Soonputru.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabelPage.xaml">
+    <EmbeddedResource Update="Onne.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Tegelenspordiga.xaml">

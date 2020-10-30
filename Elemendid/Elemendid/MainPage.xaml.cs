@@ -13,8 +13,10 @@ namespace Elemendid
     {
         public MainPage()
         {
-            BackgroundColor = Color.White; //
-            Button tblp_btn = new Button { Text = "TabelPage", 
+            InitializeComponent(); 
+
+            BackgroundColor = Color.White;
+            Button tblp_btn = new Button { Text = "Õnne", 
             BackgroundColor = Color.FromRgb(0, 149, 248), Margin = 5, Padding = 10 };
             StackLayout st = new StackLayout();
             st.Children.Add(tblp_btn);
@@ -101,7 +103,7 @@ namespace Elemendid
 
         private async void tblp_btn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TabelPage());
+            await Navigation.PushAsync(new Onne());
         }
     }
 }
